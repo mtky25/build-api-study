@@ -1,2 +1,2 @@
 # build-api-study
-This repo is destinated to help me building a REST API using .NET Framework
+This repo is destinated to help me building a REST API using .NET Framework as a personal study
