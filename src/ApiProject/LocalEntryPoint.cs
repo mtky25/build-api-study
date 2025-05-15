@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Hosting;
 
-namespace WebApplication
+namespace ApiProject
 {
     public class LocalEntryPoint
     {

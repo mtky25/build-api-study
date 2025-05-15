@@ -1,14 +1,14 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using ApiProject.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using ServerProject.Domain.Entities;
 
-namespace ServerProject.Infrastructure.Context;
+namespace ApiProject.Infrastructure.Context;
 
-public class ServerProjectDbContext : DbContext
+public class ApiProjectDbContext : DbContext
 {
     private readonly IConfiguration _configuration;
 
-    public ServerProjectDbContext(IConfiguration configuration)
+    public ApiProjectDbContext(IConfiguration configuration)
     {
         _configuration = configuration;
     }

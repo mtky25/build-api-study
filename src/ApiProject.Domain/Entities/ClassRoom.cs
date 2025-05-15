@@ -1,4 +1,4 @@
-﻿namespace ServerProject.Domain.Entities
+﻿namespace ApiProject.Domain.Entities
 {
     public class ClassRoom
     {

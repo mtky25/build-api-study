@@ -1,5 +1,89 @@
-src/ApiProject/appsettings.json
-src/.vs
-src/ApiProject/bin
-src/ApiProject/.vs
-src/ApiProject/obj
+##################################
+# Arquivos gerados automaticamente
+##################################
+bin/
+obj/
+packages/
+TestResults/
+*.log
+*.user
+*.suo
+*.cache
+*.dbmdl
+*.pdb
+*.mdb
+*.opendb
+*.vs/
+*.ncrunch*
+*.vscode/
+.vs/
+
+#######################
+# Arquivos de build e publish
+#######################
+*.exe
+*.dll
+*.app
+*.msi
+*.msm
+*.msp
+*.zip
+*.tar.gz
+*.nupkg
+*.snupkg
+
+#######################
+# IDEs e ferramentas
+#######################
+*.sln.docstates
+*.DotSettings.user
+_ReSharper*/ 
+*.resharper
+.idea/
+*.code-workspace
+
+#######################
+# Sistema operacional
+#######################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+#########################
+# appsettings e secrets
+#########################
+**/appsettings.json
+**/appsettings.*.json
+!**/appsettings.Development.json.example
+
+#########################
+# dotnet user-secrets (por segurança)
+#########################
+secrets.json
+*.sqlite
+
+#########################
+# Entity Framework
+#########################
+Migrations/
+
+#########################
+# Rider
+#########################
+.idea/
+*.sln.iml
+
+#########################
+# Logs e outros temporários
+#########################
+*.log
+*.tlog
+*.tmp
+
+#########################
+# Coverage
+#########################
+coverage/
+*.coverage
+*.coveragexml
